@@ -2,5 +2,5 @@
   "pairs": [
     "^(BABA|TENCENT|HK0700|HK1810|POPMART|MEITUAN|KUAISHOU|SQQQ|SOXS|TZA|TBT|UVXY)/USDT:USDT$"
   ],
-  "refresh_period": 300
+  "refresh_period": 3600
 }
