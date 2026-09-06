@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "refresh_period": 3600,
+  "policy": {
+    "exclude": {
+      "cn_hk_ordinary_company": "排除中国大陆及香港的普通企业；明确属于 AI 或 AI 基础设施的企业不在此类。",
+      "inverse_or_short_product": "排除带内置反向或做空敞口的 ETF、ETP 及类似产品。",
+      "volatility_product": "排除以波动率指数或波动率期货为主要敞口的产品。",
+      "manual_legacy_exclusion": "沿用既有黑名单中的人工排除项；原因尚未写入历史记录，后续应单独复核。"
+    },
+    "explicitly_retained": [
+      "MINIMAX",
+      "ZHIPU",
+      "GIGADEV",
+      "ZHONGJI",
+      "CXMT",
+      "UNITREE"
+    ]
+  },
+  "underlyings": [
+    {
+      "id": "alibaba-group-holding",
+      "name": "Alibaba Group Holding Limited",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": ["BABAB"],
+        "binance_futures": ["BABA"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
+    },
+    {
+      "id": "tencent-holdings",
+      "name": "Tencent Holdings Limited",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["TENCENT", "HK0700"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
+    },
+    {
+      "id": "xiaomi-corporation",
+      "name": "Xiaomi Corporation",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["HK1810"],
+        "okx_spot": ["XXIAOMI"],
+        "okx_futures": ["XIAOMI"]
+      }
+    },
+    {
+      "id": "pop-mart-international",
+      "name": "Pop Mart International Group Limited",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["POPMART"],
+        "okx_spot": ["XPOPMART"],
+        "okx_futures": ["POPMART"]
+      }
+    },
+    {
+      "id": "meituan",
+      "name": "Meituan",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["MEITUAN"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
+    },
+    {
+      "id": "kuaishou-technology",
+      "name": "Kuaishou Technology",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["KUAISHOU"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
+    },
+    {
+      "id": "proshares-ultrapro-short-qqq",
+      "name": "ProShares UltraPro Short QQQ",
+      "asset_type": "inverse_etf",
+      "reason_code": "inverse_or_short_product",
+      "market_aliases": {
+        "binance_spot": ["SQQQB"],
+        "binance_futures": ["SQQQ"],
+        "okx_spot": [],
+        "okx_futures": ["SQQQ"]
+      }
+    },
+    {
+      "id": "direxion-semiconductor-bear-3x",
+      "name": "Direxion Daily Semiconductor Bear 3X Shares",
+      "asset_type": "inverse_etf",
+      "reason_code": "inverse_or_short_product",
+      "market_aliases": {
+        "binance_spot": ["SOXSB"],
+        "binance_futures": ["SOXS"],
+        "okx_spot": [],
+        "okx_futures": ["SOXS"]
+      }
+    },
+    {
+      "id": "direxion-small-cap-bear-3x",
+      "name": "Direxion Daily Small Cap Bear 3X Shares",
+      "asset_type": "inverse_etf",
+      "reason_code": "inverse_or_short_product",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["TZA"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
+    },
+    {
+      "id": "proshares-ultrashort-20-year-treasury",
+      "name": "ProShares UltraShort 20+ Year Treasury",
+      "asset_type": "inverse_etf",
+      "reason_code": "inverse_or_short_product",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["TBT"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
+    },
+    {
+      "id": "proshares-ultra-vix-short-term-futures",
+      "name": "ProShares Ultra VIX Short-Term Futures ETF",
+      "asset_type": "volatility_etf",
+      "reason_code": "volatility_product",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["UVXY"],
+        "okx_spot": [],
+        "okx_futures": ["UVXY"]
+      }
+    },
+    {
+      "id": "graniteshares-2x-short-sk-hynix",
+      "name": "GraniteShares 2x Short SK Hynix Daily ETF",
+      "asset_type": "inverse_etf",
+      "reason_code": "inverse_or_short_product",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["SKDD"],
+        "okx_spot": [],
+        "okx_futures": ["SKDD"]
+      }
+    },
+    {
+      "id": "pdd-holdings",
+      "name": "PDD Holdings Inc.",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["PDD"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
+    },
+    {
+      "id": "applied-optoelectronics",
+      "name": "Applied Optoelectronics, Inc.",
+      "asset_type": "equity",
+      "reason_code": "manual_legacy_exclusion",
+      "notes": "2026-08-29 由另一项操作加入既有黑名单，历史记录未说明排除理由。",
+      "market_aliases": {
+        "binance_spot": ["AAOIB"],
+        "binance_futures": ["AAOI"],
+        "okx_spot": ["XAAOI"],
+        "okx_futures": ["AAOI"]
+      }
+    },
+    {
+      "id": "strategy-strc-preferred",
+      "name": "Strategy Inc. Variable Rate Series A Perpetual Stretch Preferred Stock",
+      "asset_type": "preferred_equity",
+      "reason_code": "manual_legacy_exclusion",
+      "notes": "2026-08-30 由另一项操作加入既有黑名单，历史记录未说明排除理由。",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["STRC"],
+        "okx_spot": ["XSTRC"],
+        "okx_futures": ["STRC"]
+      }
+    },
+    {
+      "id": "shein-global-holdings",
+      "name": "SHEIN Global Holdings Limited",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["HK0625"],
+        "okx_spot": [],
+        "okx_futures": ["SHEIN"]
+      }
+    }
+  ]
+}

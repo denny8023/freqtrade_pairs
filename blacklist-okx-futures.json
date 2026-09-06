@@ -1,0 +1,6 @@
+{
+  "pairs": [
+    "^(XIAOMI|POPMART|SQQQ|SOXS|UVXY|SKDD|AAOI|STRC|SHEIN)/USDT:USDT$"
+  ],
+  "refresh_period": 3600
+}

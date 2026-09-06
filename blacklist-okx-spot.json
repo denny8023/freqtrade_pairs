@@ -1,0 +1,6 @@
+{
+  "pairs": [
+    "^(XXIAOMI|XPOPMART|XAAOI|XSTRC)/USDT$"
+  ],
+  "refresh_period": 3600
+}
