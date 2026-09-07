@@ -211,6 +211,30 @@
         "okx_spot": [],
         "okx_futures": ["SHEIN"]
       }
+    },
+    {
+      "id": "byd-company",
+      "name": "BYD Company Limited",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["BYD"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
+    },
+    {
+      "id": "lenovo-group",
+      "name": "Lenovo Group Limited",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": ["HK0992"],
+        "okx_spot": [],
+        "okx_futures": []
+      }
     }
   ]
 }
