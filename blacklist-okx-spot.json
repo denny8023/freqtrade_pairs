@@ -1,6 +1,6 @@
 {
   "pairs": [
-    "^(XXIAOMI|XPOPMART|XAAOI|XSTRC)/USDT$"
+    "^(XXIAOMI|XPOPMART|XAAOI|XSTRC|XSHEIN)/USDT$"
   ],
   "refresh_period": 3600
 }

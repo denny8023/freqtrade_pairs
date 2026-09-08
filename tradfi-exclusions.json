@@ -208,7 +208,7 @@
       "market_aliases": {
         "binance_spot": [],
         "binance_futures": ["HK0625"],
-        "okx_spot": [],
+        "okx_spot": ["XSHEIN"],
         "okx_futures": ["SHEIN"]
       }
     },
