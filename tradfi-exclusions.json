@@ -110,7 +110,7 @@
       "market_aliases": {
         "binance_spot": ["SOXSB"],
         "binance_futures": ["SOXS"],
-        "okx_spot": [],
+        "okx_spot": ["XSOXS"],
         "okx_futures": ["SOXS"]
       }
     },
