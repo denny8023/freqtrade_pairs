@@ -69,7 +69,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     root = Path(__file__).resolve().parent
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, default=root / "bstocks-source.json")
-    parser.add_argument("--output", type=Path, default=root / "bstocks.json")
+    parser.add_argument("--output", type=Path, default=root / "binance-bstocks.json")
     parser.add_argument(
         "--exchange-info",
         type=Path,
@@ -79,7 +79,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--check",
         action="store_true",
-        help="Do not write; fail if bstocks.json differs from the generated output.",
+        help="Do not write; fail if binance-bstocks.json differs from the generated output.",
     )
     return parser.parse_args(argv)
 
@@ -96,7 +96,7 @@ def main(argv: list[str] | None = None) -> int:
     content = serialized(output)
     if args.check:
         if not args.output.exists() or args.output.read_text(encoding="utf-8") != content:
-            print("bstocks.json is stale", file=sys.stderr)
+            print("binance-bstocks.json is stale", file=sys.stderr)
             return 1
     else:
         args.output.write_text(content, encoding="utf-8")
