@@ -13,6 +13,10 @@ decision can be applied consistently across Binance and OKX.
 - `blacklist-okx-futures.json`: OKX USDT perpetual `SWAP` blacklist.
 - `blacklist.json`: backward-compatible copy of `blacklist-binance-futures.json`.
 - `generate_tradfi_blacklists.py`: standard-library-only generator and live-market validator.
+- `bstocks-source.json`: Binance-officially confirmed bStocks base assets.
+- `bstocks.json`: active Binance bStocks USDT spot whitelist for Freqtrade.
+- `generate_bstocks.py`: generates `bstocks.json` by intersecting the confirmed assets with
+  the live Binance spot inventory.
 
 OKX dated `FUTURES`/XPERP instruments are intentionally excluded because Freqtrade futures
 mode uses perpetual swaps.
@@ -55,6 +59,17 @@ Run tests without third-party packages:
 python3 -m unittest discover -s tests -v
 ```
 
+Generate or verify the Binance bStocks whitelist:
+
+```bash
+python3 generate_bstocks.py
+python3 generate_bstocks.py --check
+```
+
+The public Binance spot `exchangeInfo` response does not expose a reliable bStocks category.
+New entries in `bstocks-source.json` therefore require confirmation from an official Binance
+bStocks listing or product source before generation. A trailing `B` alone is not sufficient.
+
 ## Freqtrade usage
 
 Use the venue-appropriate file through `RemotePairList` in blacklist mode. For example:
@@ -71,3 +86,6 @@ Use the venue-appropriate file through `RemotePairList` in blacklist mode. For e
 
 Update `tradfi-exclusions.json` when a policy decision or venue alias changes, then regenerate
 all outputs together. Do not edit generated blacklist files independently.
+
+Use `bstocks.json` as the Binance spot whitelist and `blacklist-binance-spot.json` as its
+blacklist when both lists are needed.
