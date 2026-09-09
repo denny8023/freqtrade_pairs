@@ -16,7 +16,7 @@ class GenerateBstocksTest(unittest.TestCase):
 
     def test_committed_source_is_valid(self):
         validate_source(self.source)
-        self.assertEqual(len(self.source["base_assets"]), 72)
+        self.assertEqual(len(self.source["base_assets"]), 74)
 
     def test_only_confirmed_active_assets_are_emitted(self):
         source = {

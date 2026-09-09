@@ -12,6 +12,11 @@
       "date": "2026-09-02",
       "url": "https://www.binance.com/en/support/announcement/detail/b3ba5cf68daf4264a1260c8da11eef6d",
       "description": "Binance official listing announcement for CRWDB, MRNAB, SQQQB and STXB"
+    },
+    {
+      "date": "2026-09-09",
+      "url": "https://www.binance.com/en/support/announcement/detail/7880bcb7f4744d8bbbba88cbbcd43124",
+      "description": "Binance official listing announcement for CRMB and HIMSB"
     }
   ],
   "base_assets": [
@@ -34,6 +39,7 @@
     "COINB",
     "CRCLB",
     "CRDOB",
+    "CRMB",
     "CRWDB",
     "CRWVB",
     "DELLB",
@@ -45,6 +51,7 @@
     "GMEB",
     "GOOGLB",
     "GSB",
+    "HIMSB",
     "HOODB",
     "IBMB",
     "INTCB",
