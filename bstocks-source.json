@@ -22,6 +22,11 @@
       "date": "2026-09-14",
       "url": "https://www.binance.com/en/support/announcement/detail/d625f87897a843febc1f4c139740d875",
       "description": "Binance official listing announcement for CEA Industries (BNCB)"
+    },
+    {
+      "date": "2026-09-16",
+      "url": "https://www.binance.com/en/support/announcement/detail/da7f14dd847f436ea92330a024ce0245",
+      "description": "Binance official listing announcement for GoPro (GPROB) and Reddit (RDDTB)"
     }
   ],
   "base_assets": [
@@ -56,6 +61,7 @@
     "GLWB",
     "GMEB",
     "GOOGLB",
+    "GPROB",
     "GSB",
     "HIMSB",
     "HOODB",
@@ -83,6 +89,7 @@
     "QCOMB",
     "QNTB",
     "QQQB",
+    "RDDTB",
     "RKLBB",
     "SKHYB",
     "SMCIB",
