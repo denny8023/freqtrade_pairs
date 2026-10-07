@@ -168,7 +168,7 @@
       "asset_type": "equity",
       "reason_code": "cn_hk_ordinary_company",
       "market_aliases": {
-        "binance_spot": [],
+        "binance_spot": ["PDDB"],
         "binance_futures": ["PDD"],
         "okx_spot": [],
         "okx_futures": []

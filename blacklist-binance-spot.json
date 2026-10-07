@@ -1,6 +1,6 @@
 {
   "pairs": [
-    "^(BABAB|SQQQB|SOXSB|AAOIB)/USDT$"
+    "^(BABAB|SQQQB|SOXSB|PDDB|AAOIB)/USDT$"
   ],
   "refresh_period": 3600
 }

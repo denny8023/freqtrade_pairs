@@ -2,6 +2,7 @@
   "pairs": [
     "AAOIB/USDT",
     "AAPLB/USDT",
+    "ADBEB/USDT",
     "AGPUB/USDT",
     "ALABB/USDT",
     "AMATB/USDT",
@@ -31,6 +32,7 @@
     "DRAMB/USDT",
     "EWYB/USDT",
     "FLNCB/USDT",
+    "FWDIB/USDT",
     "GLWB/USDT",
     "GMEB/USDT",
     "GOOGLB/USDT",
@@ -38,6 +40,7 @@
     "GSB/USDT",
     "HIMSB/USDT",
     "HOODB/USDT",
+    "HPEB/USDT",
     "IBMB/USDT",
     "INTCB/USDT",
     "INTWB/USDT",
@@ -57,6 +60,7 @@
     "NOKB/USDT",
     "NVDAB/USDT",
     "ORCLB/USDT",
+    "PDDB/USDT",
     "PLTRB/USDT",
     "PYPLB/USDT",
     "QCOMB/USDT",
@@ -64,6 +68,7 @@
     "QQQB/USDT",
     "RDDTB/USDT",
     "RKLBB/USDT",
+    "SHAZB/USDT",
     "SKHYB/USDT",
     "SMCIB/USDT",
     "SMHB/USDT",
@@ -79,7 +84,9 @@
     "TSLAB/USDT",
     "TSMB/USDT",
     "USARB/USDT",
-    "WDCB/USDT"
+    "WDCB/USDT",
+    "WENB/USDT",
+    "ZMB/USDT"
   ],
   "refresh_period": 3600
 }
