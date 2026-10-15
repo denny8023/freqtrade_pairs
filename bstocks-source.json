@@ -42,6 +42,11 @@
       "date": "2026-10-07",
       "url": "https://www.binance.com/en/support/announcement/detail/9c34999b27234dfe9c43d2ac33cebde4",
       "description": "Binance official listing announcement for JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB)"
+    },
+    {
+      "date": "2026-10-14",
+      "url": "https://www.binance.com/en/support/announcement/detail/927d3a7b5d6c43fb888e38f110005906",
+      "description": "Binance official listing announcement for BlackBerry (BBB), MongoDB (MDBB), Penguin Solutions (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB)"
     }
   ],
   "base_assets": [
@@ -60,6 +65,7 @@
     "AVGOB",
     "AXTIB",
     "BABAB",
+    "BBB",
     "BEB",
     "BMNRB",
     "BNCB",
@@ -94,6 +100,7 @@
     "KORUB",
     "LITEB",
     "LLYB",
+    "MDBB",
     "METAB",
     "MRNAB",
     "MRVLB",
@@ -108,6 +115,7 @@
     "NVDAB",
     "ORCLB",
     "PDDB",
+    "PENGB",
     "PLTRB",
     "PYPLB",
     "QCOMB",
@@ -133,6 +141,7 @@
     "TSMB",
     "USARB",
     "USDEB",
+    "UVXYB",
     "WDCB",
     "WENB",
     "ZMB"

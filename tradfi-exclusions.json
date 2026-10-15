@@ -144,7 +144,7 @@
       "asset_type": "volatility_etf",
       "reason_code": "volatility_product",
       "market_aliases": {
-        "binance_spot": [],
+        "binance_spot": ["UVXYB"],
         "binance_futures": ["UVXY"],
         "okx_spot": [],
         "okx_futures": ["UVXY"]
