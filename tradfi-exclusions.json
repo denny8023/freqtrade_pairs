@@ -98,7 +98,7 @@
       "market_aliases": {
         "binance_spot": ["SQQQB"],
         "binance_futures": ["SQQQ"],
-        "okx_spot": [],
+        "okx_spot": ["XSQQQ"],
         "okx_futures": ["SQQQ"]
       }
     },
@@ -146,7 +146,7 @@
       "market_aliases": {
         "binance_spot": ["UVXYB"],
         "binance_futures": ["UVXY"],
-        "okx_spot": [],
+        "okx_spot": ["XUVXY"],
         "okx_futures": ["UVXY"]
       }
     },

@@ -23,7 +23,9 @@ class GenerateTradfiBlacklistsTest(unittest.TestCase):
                 "KUAISHOU", "SQQQ", "SOXS", "TZA", "TBT", "UVXY", "SKDD",
                 "PDD", "AAOI", "STRC", "HK0625", "BTC",
             },
-            "okx_spot": {"XAAOI", "XPOPMART", "XSTRC", "XXIAOMI", "BTC"},
+            "okx_spot": {
+                "XAAOI", "XPOPMART", "XSQQQ", "XSTRC", "XUVXY", "XXIAOMI", "BTC",
+            },
             "okx_futures": {
                 "AAOI", "POPMART", "SHEIN", "SKDD", "SOXS", "SQQQ", "STRC",
                 "UVXY", "XIAOMI", "BTC",
@@ -35,7 +37,7 @@ class GenerateTradfiBlacklistsTest(unittest.TestCase):
         self.assertEqual(selected["binance_spot"], ["BABAB", "SQQQB", "SOXSB", "AAOIB"])
         self.assertEqual(
             outputs["blacklist-okx-spot.json"]["pairs"],
-            ["^(XXIAOMI|XPOPMART|XAAOI|XSTRC)/USDT$"],
+            ["^(XXIAOMI|XPOPMART|XSQQQ|XUVXY|XAAOI|XSTRC)/USDT$"],
         )
         self.assertEqual(
             outputs["blacklist-okx-futures.json"]["pairs"],
