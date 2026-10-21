@@ -47,6 +47,11 @@
       "date": "2026-10-14",
       "url": "https://www.binance.com/en/support/announcement/detail/927d3a7b5d6c43fb888e38f110005906",
       "description": "Binance official listing announcement for BlackBerry (BBB), MongoDB (MDBB), Penguin Solutions (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB)"
+    },
+    {
+      "date": "2026-10-21",
+      "url": "https://www.binance.com/en/support/announcement/detail/3afa938f499d403382d01d0c0644507e",
+      "description": "Binance official bStocks collateral announcement for RoboStrategy (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra (VSTB)"
     }
   ],
   "base_assets": [
@@ -69,6 +74,8 @@
     "BEB",
     "BMNRB",
     "BNCB",
+    "BOTB",
+    "BRKBB",
     "CBRSB",
     "COHRB",
     "COINB",
@@ -98,6 +105,7 @@
     "IRENB",
     "JPMB",
     "KORUB",
+    "KSTRB",
     "LITEB",
     "LLYB",
     "MDBB",
@@ -136,12 +144,14 @@
     "SPYB",
     "SQQQB",
     "STXB",
+    "TMFB",
     "TQQQB",
     "TSLAB",
     "TSMB",
     "USARB",
     "USDEB",
     "UVXYB",
+    "VSTB",
     "WDCB",
     "WENB",
     "ZMB"
