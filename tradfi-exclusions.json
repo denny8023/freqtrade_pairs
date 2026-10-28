@@ -156,7 +156,7 @@
       "asset_type": "inverse_etf",
       "reason_code": "inverse_or_short_product",
       "market_aliases": {
-        "binance_spot": [],
+        "binance_spot": ["SKDDB"],
         "binance_futures": ["SKDD"],
         "okx_spot": [],
         "okx_futures": ["SKDD"]

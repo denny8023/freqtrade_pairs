@@ -52,6 +52,11 @@
       "date": "2026-10-21",
       "url": "https://www.binance.com/en/support/announcement/detail/3afa938f499d403382d01d0c0644507e",
       "description": "Binance official bStocks collateral announcement for RoboStrategy (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra (VSTB)"
+    },
+    {
+      "date": "2026-10-28",
+      "url": "https://www.binance.com/en/support/announcement/detail/5a326408b6404d69b474f3fab7acfa66",
+      "description": "Binance official listing announcement for AppLovin (APPB), Bending Spoons (BSPB), GE Vernova (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB)"
     }
   ],
   "base_assets": [
@@ -64,6 +69,7 @@
     "AMCB",
     "AMDB",
     "AMZNB",
+    "APPB",
     "ARMB",
     "ASMLB",
     "ASTSB",
@@ -76,6 +82,7 @@
     "BNCB",
     "BOTB",
     "BRKBB",
+    "BSPB",
     "CBRSB",
     "COHRB",
     "COINB",
@@ -91,6 +98,7 @@
     "EWYB",
     "FLNCB",
     "FWDIB",
+    "GEVB",
     "GLWB",
     "GMEB",
     "GOOGLB",
@@ -133,7 +141,9 @@
     "RKLBB",
     "SECZB",
     "SHAZB",
+    "SKDDB",
     "SKHYB",
+    "SKUUB",
     "SMCIB",
     "SMHB",
     "SNDKB",
