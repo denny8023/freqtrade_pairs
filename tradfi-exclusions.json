@@ -14,7 +14,8 @@
       "GIGADEV",
       "ZHONGJI",
       "CXMT",
-      "UNITREE"
+      "UNITREE",
+      "BIDU"
     ]
   },
   "underlyings": [
@@ -171,7 +172,19 @@
         "binance_spot": ["PDDB"],
         "binance_futures": ["PDD"],
         "okx_spot": [],
-        "okx_futures": []
+        "okx_futures": ["PDD"]
+      }
+    },
+    {
+      "id": "wuxi-biologics",
+      "name": "WuXi Biologics (Cayman) Inc.",
+      "asset_type": "equity",
+      "reason_code": "cn_hk_ordinary_company",
+      "market_aliases": {
+        "binance_spot": [],
+        "binance_futures": [],
+        "okx_spot": [],
+        "okx_futures": ["WUXIBIO"]
       }
     },
     {
