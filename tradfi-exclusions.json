@@ -159,7 +159,7 @@
       "market_aliases": {
         "binance_spot": ["SKDDB"],
         "binance_futures": ["SKDD"],
-        "okx_spot": [],
+        "okx_spot": ["XSKDD"],
         "okx_futures": ["SKDD"]
       }
     },
